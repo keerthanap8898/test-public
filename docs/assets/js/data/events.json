@@ -1,0 +1,8 @@
+{
+  "events": [
+    {"title":"Seattle Security Systems Meetup", "date":"2026-06-18", "location":"Seattle, WA", "type":"talk", "kind":"community", "org":"Local Security Community", "summary":"Talk on CVE prioritization and patch workflow design for Linux fleets.", "tags":["security","linux","cve"], "link":"https://www.meetup.com/"},
+    {"title":"AI Reliability Reading Circle", "date":"2026-07-09", "location":"Remote", "type":"panel", "kind":"research", "org":"Independent", "summary":"Discussion on evaluation rigor and correctness in applied AI.", "tags":["ai","evaluation"], "link":"https://zoom.us/"},
+    {"title":"Systems Design for Safe Automation", "date":"2026-08-22", "location":"Seattle, WA", "type":"workshop", "kind":"professional", "org":"Engineering Network", "summary":"Workshop on resilient pipeline design and operational guardrails.", "tags":["distributed-systems","operations"], "link":"https://www.eventbrite.com/"},
+    {"title":"NLP Research Notes Session", "date":"2025-10-14", "location":"Remote", "type":"talk", "kind":"research", "org":"NLP Study Group", "summary":"Review of CRF-era lessons that still matter for modern architectures.", "tags":["nlp","research"]}
+  ]
+}
