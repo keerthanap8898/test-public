@@ -1,0 +1,20 @@
+{
+  "name": "Keerthana Purushotham",
+  "headline": "Software Engineer at AWS Amazon Linux Vulnerability Management focused on CVE response, Linux security posture, and correctness at scale.",
+  "tagline": "Security + AI + distributed systems, delivered with operational rigor.",
+  "summary": "I build practical systems where reliability and security are first-class constraints: threat modeling, patch pipelines, FIPS-sensitive workloads, and production automation. My background includes NLP research, statistical modeling, and platform-oriented engineering.",
+  "location": "Seattle, WA",
+  "role": "Software Engineer, Amazon Linux Vulnerability Management (AWS)",
+  "photo": "./images/profile-placeholder.svg",
+  "affiliations": ["AWS", "Amazon Linux", "CVE triage", "Threat modeling", "Distributed systems", "AI/NLP"],
+  "highlights": ["Linux security hardening", "Patch lifecycle and remediation", "Correctness and measurable risk reduction", "Research-to-production mindset"],
+  "heroLinks": [
+    {"label":"GitHub", "url":"https://github.com/stars/keerthanap8898/lists/for-the-recruiter"},
+    {"label":"LinkedIn", "url":"https://linkedin.com/in/keerthanapurushotham"},
+    {"label":"Resume", "url":"./resume/"},
+    {"label":"Portfolio", "url":"./portfolio/"},
+    {"label":"Scholar", "url":"https://scholar.google.com/"},
+    {"label":"Medium", "url":"https://medium.com/"},
+    {"label":"Substack", "url":"https://substack.com/"}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "works": [
+    {
+      "id": "text-to-video-api-orchestrator",
+      "title": "Text To Video API Orchestrator",
+      "type": "project",
+      "category": "Systems",
+      "subcategory": "Distributed Media Pipelines",
+      "featured": true,
+      "date": "2024-09-01",
+      "year": 2024,
+      "tags": ["Rust", "Python", "API", "Queueing", "Cloud"],
+      "summary": "Designed a modular orchestration flow for text-to-video generation with runbook-backed reliability patterns.",
+      "description": "A production-oriented architecture for API orchestration, worker isolation, and predictable media job execution under variable load.",
+      "skills": ["API design", "observability", "failure handling"],
+      "highlights": ["Design doc", "Challenge framing", "Runbook and operational playbooks"],
+      "thumbnail": "./images/work-text-video.svg",
+      "links": [{"label":"Repository", "url":"https://github.com/keerthanap8898/test-public"}],
+      "media": [
+        {"type":"pdf", "title":"Design Document", "src":"../Resources/Documentation/01_Text_to_Video_API_Design_Document.pdf", "caption":"Architecture", "poster":"", "alt":"design doc", "year":2024}
+      ]
+    },
+    {
+      "id": "accuracy-is-not-enough",
+      "title": "Accuracy Is Not Enough",
+      "type": "publication",
+      "category": "AI",
+      "subcategory": "Evaluation",
+      "featured": true,
+      "date": "2023-11-20",
+      "year": 2023,
+      "tags": ["AI", "Correctness", "Statistics", "Reliability"],
+      "summary": "Argues for deeper evaluation beyond single-score metrics in real-world AI systems.",
+      "description": "Exploration of why aggregate accuracy can hide critical model behavior and how to evaluate robustly.",
+      "skills": ["model evaluation", "statistical reasoning"],
+      "highlights": ["Metric critique", "Failure-mode analysis"],
+      "thumbnail": "./images/work-accuracy.svg",
+      "links": [{"label":"Article", "url":"https://medium.com/"}],
+      "media": [{"type":"link", "title":"Publication link", "src":"https://medium.com/", "caption":"Read online", "poster":"", "alt":"", "year":2023}]
+    },
+    {
+      "id": "neural-crf-parsing",
+      "title": "Neural CRF for Constituency Parsing",
+      "type": "research",
+      "category": "NLP",
+      "subcategory": "Structured Prediction",
+      "featured": true,
+      "date": "2022-04-14",
+      "year": 2022,
+      "tags": ["NLP", "CRF", "Parsing", "Research"],
+      "summary": "Research implementation connecting neural feature extraction with CRF-based structured inference.",
+      "description": "Study of sequence and span-level dependencies using CRF objectives for parser quality.",
+      "skills": ["PyTorch", "NLP", "experimentation"],
+      "highlights": ["Ablations", "Error analysis", "Reproducible experiments"],
+      "thumbnail": "./images/work-crf.svg",
+      "links": [{"label":"Paper", "url":"https://arxiv.org/"}],
+      "media": [{"type":"link", "title":"Paper", "src":"https://arxiv.org/", "caption":"Preprint", "poster":"", "alt":"", "year":2022}]
+    },
+    {
+      "id": "neural-crf-ner",
+      "title": "Neural CRF NER Tagger",
+      "type": "research",
+      "category": "NLP",
+      "subcategory": "Named Entity Recognition",
+      "featured": false,
+      "date": "2021-08-10",
+      "year": 2021,
+      "tags": ["NER", "CRF", "NLP"],
+      "summary": "Entity tagging model balancing sequence coherence with practical deployment constraints.",
+      "description": "Implemented and benchmarked a neural-CRF NER stack with attention to error modes and explainability.",
+      "skills": ["Data preparation", "modeling", "evaluation"],
+      "highlights": ["Dataset curation", "Boundary accuracy improvements"],
+      "thumbnail": "",
+      "links": [{"label":"Code", "url":"https://github.com/"}],
+      "media": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "summary": "Curated selection of projects, research artifacts, and technical writing.",
+  "deckPdf": "./images/portfolio-placeholder.pdf",
+  "media": [
+    {"type":"image", "title":"Project Poster", "src":"./images/portfolio-poster-1.svg", "caption":"System architecture overview", "alt":"poster"},
+    {"type":"image", "title":"Research Snapshot", "src":"./images/portfolio-poster-2.svg", "caption":"Research-to-production workflow", "alt":"snapshot"},
+    {"type":"drive", "title":"Drive Deck", "src":"https://drive.google.com/file/d/FILE_ID/preview", "caption":"Replace FILE_ID with your own deck"}
+  ]
+}
