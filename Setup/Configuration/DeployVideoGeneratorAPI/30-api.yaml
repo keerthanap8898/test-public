@@ -1,0 +1,44 @@
+# This YAML manifest deploys the API service and its configuration for the application.
+# Environment: Production
+# The service exposes the API on port 80 and forwards traffic to pods on port 8080.
+# The deployment runs 3 replicas for high availability and scalability.
+# Dependencies: Assumes 'my-api-image:latest' is available in the container registry.
+
+
+# Define the API service
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-api-service
+spec:
+  selector:
+    app: my-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+
+---
+
+# Define the API deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-api-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-api
+  template:
+    metadata:
+      labels:
+          image: my-api-image:v1.0.0
+    spec:
+      containers:
+        - name: my-api-container
+          image: my-api-image:latest
+          ports:
+            - containerPort: 8080
+
+---

@@ -1,0 +1,7 @@
+# This YAML manifest defines the Kubernetes namespace for the application.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-application-namespace
+  labels:
+    name: my-application-namespace
